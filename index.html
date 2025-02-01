@@ -479,7 +479,7 @@
                 name="user-name"
                 id="user-name"
               />
-              <svg class="modal-imput-icon" width="18" height="18">
+              <svg class="modal-imput-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
@@ -493,7 +493,7 @@
                 name="user-phone"
                 id="user-phone"
               />
-              <svg class="modal-imput-icon" width="18" height="18">
+              <svg class="modal-imput-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
@@ -507,7 +507,7 @@
                 name="user-email"
                 id="user-email"
               />
-              <svg class="modal-imput-icon" width="18" height="18">
+              <svg class="modal-imput-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
@@ -521,22 +521,24 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <input
-            type="checkbox"
-            name="policy"
-            id="policy"
-            class="modal-check visually-hidden"
-            value="true"
-          />
-          <label for="policy" class="modal-check-text"
-            ><span class="modal-check-item">
-              <svg class="check-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-check"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a href="" class="modal-check-link"> Privacy Policy</a></label
-          >
+          <div class="modal-check-area">
+            <input
+              type="checkbox"
+              name="policy"
+              id="user-privacy"
+              class="modal-check visually-hidden"
+              value="true"
+            />
+            <label for="policy" class="modal-check-text"
+              ><span class="modal-check-item">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="modal-check-link"> Privacy Policy</a></label
+            >
+          </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
